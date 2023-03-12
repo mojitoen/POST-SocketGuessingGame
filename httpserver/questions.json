@@ -26,6 +26,51 @@
           {"id": "c", "text": "Vincent van Gogh"},
           {"id": "d", "text": "Michelangelo"}
         ]
+      },
+      {
+        "question": "What is the purpose of an IP address?",
+        "options": [
+          {"id": "a", "text": "A unique identifier for a computer"},
+          {"id": "b", "text": "a unique location identifier"},
+          {"id": "c", "text": "a network location identifier", "isCorrect": true},
+          {"id": "d", "text": "None of the above"}
+        ]
+      },
+      {
+        "question": "There are ____ bits in an octet?",
+        "options": [
+          {"id": "a", "text": "8", "isCorrect": true},
+          {"id": "b", "text": "5"},
+          {"id": "c", "text": "4"},
+          {"id": "d", "text": "9"}
+        ]
+      },
+      {
+        "question": "Given the IP address 152.16.168.196/28, is the IP address 162.16.168.30 in the same network?",
+        "options": [
+          {"id": "a", "text": "Yes"},
+          {"id": "b", "text": "No", "isCorrect": true},
+          {"id": "c", "text": "This question can't be solved"},
+          {"id": "d", "text": "Neither of these addresses can exist"}
+        ]
+      },
+      {
+        "question": "What is the broadcast address for the network in which 192.168.242.5/20 is located?",
+        "options": [
+          {"id": "a", "text": "192.168.251.251"},
+          {"id": "b", "text": "192.168.250.250"},
+          {"id": "c", "text": "192.168.255.255", "isCorrect": true},
+          {"id": "d", "text": "192.168.250.251"}
+        ]
+      },
+      {
+        "question": "What does IP address mean?",
+        "options": [
+          {"id": "a", "text": "Internet Provider address"},
+          {"id": "b", "text": "Internet Protocol address", "isCorrect": true},
+          {"id": "c", "text": "Internet Processing address"},
+          {"id": "d", "text": "None of the above "}
+        ]
       }
     ]
   }
